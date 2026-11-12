@@ -1,118 +1,76 @@
-# Little Lemon | Front-End Developer Capstone
+# PSEB Bootcamp Assignments
 
-A responsive React restaurant website with an accessible table reservation form. This project demonstrates component-based UI development, parent-managed booking availability, client-side validation, API adapter functions, and unit tests.
+A centralized repository containing my learning progress and practical work throughout the PSEB Bootcamp.
 
-## Features
+## About This Repository
 
-- Responsive restaurant landing page and reservation section.
-- Semantic HTML landmarks and accessible form labels.
-- Date-based available-time loading.
-- Booking state and available times managed by the parent booking page.
-- Client-side validation for date, time, guest count, occasion, name, and email.
-- Submission, loading, success, and error states.
-- Unit tests for validation and booking form behavior.
-- Reduced-motion support and keyboard-visible focus styles.
+This repository serves as a collection of my bootcamp activities, including assignments, quizzes, practical tasks, coding exercises, and projects.
 
-## Tech stack
+The goal is to document my learning journey, strengthen my technical skills, and maintain an organized record of my work.
 
-- React 18
-- Vite
-- JavaScript (ES modules)
-- CSS
-- Vitest
-- React Testing Library
+## Repository Contents
 
-## Requirements
+- Assignments
+- Quizzes and assessments
+- Practical coding tasks
+- HTML and CSS exercises
+- Programming exercises
+- Mini projects
+- Learning resources and practice work
 
-- Node.js 18 or newer
-- npm
+## Technologies & Tools
 
-## Setup
+The technologies and tools used throughout the bootcamp may include:
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd little-lemon-capstone
-npm install
-npm run dev
-```
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+- Visual Studio Code
+- Other programming technologies introduced during the program
 
-Open the local URL printed by Vite, usually `http://localhost:5173`.
-
-## Tests
-
-Run the test suite:
-
-```bash
-npm test
-```
-
-Run tests in watch mode:
-
-```bash
-npm run test:watch
-```
-
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Booking API adapter
-
-The standalone project includes `src/api/bookingApi.js` with asynchronous demo implementations of `fetchAPI(date)` and `submitAPI(formData)`. They simulate the availability and reservation responses so the project runs without a backend.
-
-If your Coursera starter project provides the course API functions, use those supplied functions instead. Keep the function signatures compatible:
-
-- `fetchAPI(date)` returns an array of available time strings.
-- `submitAPI(formData)` returns a boolean indicating whether the reservation was accepted.
-
-The demo adapter does not create a real restaurant reservation or send an email.
-
-## Main project structure
+## Repository Structure
 
 ```text
-src/
-  api/
-    bookingApi.js
-  components/
-    BookingForm.jsx
-    BookingForm.test.jsx
-    BookingPage.jsx
-    Header.jsx
-    Hero.jsx
-  test/
-    setup.js
-  utils/
-    validation.js
-    validation.test.js
-  App.jsx
-  main.jsx
-  styles.css
+PSEB-Bootcamp-Assignments/
+│
+├── Assignments/
+│   ├── Assignment-01/
+│   └── Assignment-02/
+│
+├── Quizzes/
+│
+├── Tasks/
+│
+├── Projects/
+│
+└── README.md
 ```
 
-## Accessibility and UX checks
+_The folder structure may evolve as new activities are added._
 
-- Every input has a visible associated label.
-- Validation errors are associated with fields through `aria-describedby`.
-- Invalid fields expose `aria-invalid`.
-- Submission feedback uses `role="status"` or `role="alert"`.
-- A skip link supports keyboard navigation.
-- Interactive elements have visible focus styles.
-- Layout adapts to mobile, tablet, and desktop widths.
+## Learning Objectives
 
-## Before submission
+- Develop practical programming skills.
+- Understand web development fundamentals.
+- Improve problem-solving abilities.
+- Practice writing clean and structured code.
+- Learn version control using Git and GitHub.
+- Build projects through hands-on practice.
 
-1. Run `npm install`.
-2. Run `npm test` and confirm all tests pass.
-3. Run `npm run build` and confirm the production build succeeds.
-4. Test the form with valid and invalid values.
-5. Check the layout at mobile and desktop widths.
-6. Replace the demo API adapter with the supplied course API if your course starter includes it.
-7. Push the complete project to a public GitHub repository.
-8. Submit the repository URL on Coursera.
+## About Me
 
-## Credits
+**Ubaid Ahmad**
 
-This project is an educational implementation of the Little Lemon restaurant booking capstone brief. Restaurant imagery is loaded from Unsplash.
+Full-Stack Web Developer | MERN Stack Developer | UI/UX Designer
+
+- GitHub: [@stackiid](https://github.com/stackiid)
+- Portfolio: [My Portfolio](https://stackiid.github.io/portfolio/)
+
+## Progress
+
+This repository will continue to grow as I complete new assignments, quizzes, and practical tasks throughout the PSEB Bootcamp.
+
+---
+
+**Learning by building. Improving through practice.**
