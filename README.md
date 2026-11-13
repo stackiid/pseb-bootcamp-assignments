@@ -34,9 +34,9 @@ The technologies and tools used throughout the bootcamp may include:
 ```text
 PSEB-Bootcamp-Assignments/
 │
-├── Assignments/
-│   ├── Assignment-01/
-│   └── Assignment-02/
+├── assignments/
+│   ├── activity_1/
+│   └── activity_2/
 │
 ├── Quizzes/
 │
