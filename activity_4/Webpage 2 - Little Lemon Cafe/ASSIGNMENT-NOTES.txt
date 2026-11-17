@@ -1,0 +1,105 @@
+PSEB WEB DESIGN ASSIGNMENT
+WEBPAGE 2: LITTLE LEMON CAFE
+========================================
+
+INSTRUCTOR TASK 1: CREATE A WEBPAGE USING EXTERNAL CSS
+
+The page connects an external stylesheet from the HTML document's <head>:
+
+<link rel="stylesheet" href="styles/style.css">
+
+The HTML defines semantic content and page structure. The CSS file defines the visual design and responsive behaviour.
+
+INSTRUCTOR TASK 2: STEPS TO CREATE AN EXTERNAL CSS FILE
+
+1. Create a main folder for your webpage project.
+2. Create an index.html file in the main folder.
+3. Create a subfolder named styles.
+4. Create a file named style.css inside the styles folder.
+5. Add this link inside the <head> element of index.html:
+   <link rel="stylesheet" href="styles/style.css">
+6. Write your CSS rules in styles/style.css.
+7. Save the HTML and CSS files.
+8. Open index.html in a browser and confirm that the stylesheet loads.
+9. If the design does not appear, verify the relative path, spelling, and file extension.
+
+INSTRUCTOR TASK 3: CODE FOR INTERNAL CSS
+
+Internal CSS is placed inside a <style> element in the document head.
+
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS Example</title>
+    <style>
+        body {
+            background-color: #f7f4e9;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #45523a;
+            text-align: center;
+        }
+
+        p {
+            color: #77796d;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Little Lemon</h1>
+    <p>Fresh coffee, tea, and something sweet.</p>
+</body>
+</html>
+
+INSTRUCTOR TASK 4: WHY DO WE PREFER EXTERNAL CSS?
+
+1. Reusability: The same CSS file can style multiple webpages.
+2. Consistency: Shared design rules keep the website visually consistent.
+3. Easy maintenance: Change a rule once in the stylesheet instead of editing many HTML files.
+4. Separation of concerns: HTML handles content and structure. CSS handles presentation.
+5. Scalability: A separate stylesheet is easier to organize as a website grows.
+6. Browser caching: Browsers can cache external CSS files and reuse them on later page visits.
+7. Collaboration: HTML structure and CSS styling can be managed independently.
+
+THREE CSS STYLING METHODS
+
+1. INLINE CSS
+Inline CSS uses the style attribute directly on an HTML element.
+Example:
+<p style="color: olive; font-size: 18px;">Freshly brewed, daily.</p>
+Use it for a quick, isolated style. Avoid repeating it across a large website because it becomes difficult to maintain.
+
+2. INTERNAL CSS
+Internal CSS uses a <style> element in the HTML head.
+Example:
+<style>
+    h1 { color: olive; }
+</style>
+Use it for a single page or a small demonstration. Its rules are not automatically shared with other HTML pages.
+
+3. EXTERNAL CSS
+External CSS uses a separate .css file connected through a <link> element.
+Example:
+<link rel="stylesheet" href="styles/style.css">
+Use it for multi-page websites and projects that need reusable, maintainable styling.
+
+PEXELS PHOTOGRAPHY
+Provided by the assignment:
+- https://images.pexels.com/photos/33233564/pexels-photo-33233564.jpeg
+- https://images.pexels.com/photos/10861766/pexels-photo-10861766.jpeg
+- https://images.pexels.com/photos/32671069/pexels-photo-32671069.jpeg
+- https://images.pexels.com/photos/30860038/pexels-photo-30860038.jpeg
+
+Additional Pexels selections:
+- https://www.pexels.com/photo/a-cup-of-coffee-and-sweet-pastry-on-the-table-18728529/
+- https://www.pexels.com/photo/two-cups-of-coffee-and-a-slice-of-cake-on-a-cafe-table-27393271/
+- https://www.pexels.com/photo/elegant-cafe-table-with-tea-and-pastry-34174955/
+
+NOTE
+Images and Google Fonts load from external services. An internet connection is required to display them. This assignment uses HTML and CSS only.

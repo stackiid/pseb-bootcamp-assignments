@@ -1,0 +1,110 @@
+PSEB WEB DESIGN ASSIGNMENT
+WEBPAGE 1: FORGE FITNESS
+========================================
+
+INSTRUCTOR TASK 1: CREATE A SIMPLE WEBPAGE USING EXTERNAL CSS
+
+This project demonstrates an external stylesheet. The HTML file links to the CSS file inside the styles folder using:
+
+<link rel="stylesheet" href="styles/style.css">
+
+The HTML stores the content and structure. The external CSS file controls colours, typography, spacing, layout, image presentation, hover states, and responsive behaviour.
+
+INSTRUCTOR TASK 2: STEPS TO CREATE AN EXTERNAL CSS FILE
+
+1. Open your project folder in Visual Studio Code or another code editor.
+2. Create a folder named styles inside the webpage folder.
+3. Inside styles, create a file named style.css.
+4. Open index.html and add the stylesheet link inside the <head> element:
+   <link rel="stylesheet" href="styles/style.css">
+5. Write CSS rules in styles/style.css. For example:
+   body {
+       background-color: #111411;
+       color: white;
+       font-family: Arial, sans-serif;
+   }
+6. Save both files.
+7. Open index.html in a browser. If the styles do not appear, check the file name and relative path.
+
+INSTRUCTOR TASK 3: CODE FOR INTERNAL CSS
+
+Internal CSS is written inside a <style> element in the <head> of an HTML document.
+
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internal CSS Example</title>
+    <style>
+        body {
+            background-color: #f1f0e9;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #26351a;
+            text-align: center;
+        }
+
+        p {
+            color: #555555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Forge Fitness</h1>
+    <p>Consistency builds strength and confidence.</p>
+</body>
+</html>
+
+INSTRUCTOR TASK 4: WHY DO WE PREFER EXTERNAL CSS?
+
+1. Reusability: One stylesheet can style multiple HTML pages.
+2. Consistency: Shared rules keep colours, typography, spacing, and components consistent.
+3. Maintainability: Developers can update the design in one CSS file instead of editing many HTML files.
+4. Cleaner HTML: HTML remains focused on content and structure. CSS handles presentation.
+5. Scalability: A separate stylesheet is easier to organize as a website grows.
+6. Browser caching: Browsers can cache an external CSS file, which may reduce repeat downloads across pages.
+7. Team workflow: Developers can work on structure and styling in separate files.
+
+CSS METHODS: QUICK COMPARISON
+
+INLINE CSS
+Written directly inside an HTML element with the style attribute.
+Example:
+<p style="color: green; font-size: 18px;">Train with purpose.</p>
+Best for: a quick one-off style or a small demonstration.
+Limitation: difficult to reuse and maintain across many elements.
+
+INTERNAL CSS
+Written inside a <style> element in the HTML document's <head>.
+Example:
+<style>
+    h1 { color: green; }
+</style>
+Best for: a single-page demonstration or page-specific styles.
+Limitation: styles are tied to that HTML file and are harder to share across pages.
+
+EXTERNAL CSS
+Written in a separate .css file and connected with a <link> element.
+Example:
+<link rel="stylesheet" href="styles/style.css">
+Best for: multi-page websites and maintainable projects.
+Limitation: the path must be correct and the stylesheet must load.
+
+PEXELS PHOTOGRAPHY
+Provided by the assignment:
+- https://images.pexels.com/photos/17959564/pexels-photo-17959564.jpeg
+- https://images.pexels.com/photos/29526381/pexels-photo-29526381.jpeg
+- https://images.pexels.com/photos/5202350/pexels-photo-5202350.jpeg
+- https://images.pexels.com/photos/13106612/pexels-photo-13106612.jpeg
+
+Additional Pexels selections:
+- https://www.pexels.com/photo/dynamic-indoor-gym-scene-with-workout-equipment-32610337/
+- https://www.pexels.com/photo/modern-gym-with-workout-equipment-28320723/
+
+NOTE
+The photography and Google Fonts are externally hosted. Keep an internet connection available when viewing the page. The project does not use JavaScript because it is not required for this assignment.

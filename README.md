@@ -1,76 +1,80 @@
 # PSEB Bootcamp Assignments
 
-A centralized repository containing my learning progress and practical work throughout the PSEB Bootcamp.
+Coursework from the PSEB Bootcamp: a collection of static web pages built with HTML5 and CSS3, organized as numbered activity folders. Every project is a standalone page that opens directly in a browser with no build step.
 
-## About This Repository
+## Table of Contents
 
-This repository serves as a collection of my bootcamp activities, including assignments, quizzes, practical tasks, coding exercises, and projects.
+- [Projects](#projects)
+- [Repository Structure](#repository-structure)
+- [Technology Overview](#technology-overview)
+- [Working With Individual Projects](#working-with-individual-projects)
+- [About](#about)
 
-The goal is to document my learning journey, strengthen my technical skills, and maintain an organized record of my work.
+## Projects
 
-## Repository Contents
+The repository currently contains 5 projects across 4 numbered activity folders. `activity_4` holds two separate webpages. Only the two projects in `activity_4` include their own `README.md`; the others are documented here.
 
-- Assignments
-- Quizzes and assessments
-- Practical coding tasks
-- HTML and CSS exercises
-- Programming exercises
-- Mini projects
-- Learning resources and practice work
+| Activity | Project | Description | Styling | Links |
+|---|---|---|---|---|
+| 1 | [Developer Portfolio](./activity_1/) | Single-page personal portfolio with about, skills, education, projects, interests, and contact sections, using lists, a table, an image, and a contact form. | Internal CSS | [index.html](./activity_1/index.html) / [Preview](./activity_1/output.png) |
+| 2 | [Developer Portfolio with Multimedia](./activity_2/) | Extension of the activity 1 portfolio that adds a Multimedia section with embedded video and audio players and a matching navigation link. | Internal CSS | [index.html](./activity_2/index.html) / [Preview](./activity_2/output.png) |
+| 3 | [BISE Peshawar Result Transcript](./activity_3/) | Static layout of an intermediate result transcript with candidate information, a subject-wise marks table with grouped headers, a result summary, a verification form, and an instructions list. | Internal CSS | [index.html](./activity_3/index.html) / [Preview](./activity_3/output.png) |
+| 4 | [Forge Fitness](./activity_4/Webpage%201%20-%20Forge%20Fitness/) | Responsive gym landing page with hero, training programs, facility feature, opening schedule, and contact call to action. | External CSS | [README](./activity_4/Webpage%201%20-%20Forge%20Fitness/README.md) / [Notes](./activity_4/Webpage%201%20-%20Forge%20Fitness/ASSIGNMENT-NOTES.txt) / [Preview](./activity_4/Webpage%201%20-%20Forge%20Fitness/Forge%20Fitness.png) |
+| 4 | [Little Lemon Cafe](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/) | Responsive cafe landing page with hero, brand story, menu highlights, quote feature, and visit details. | External CSS | [README](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/README.md) / [Notes](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/ASSIGNMENT-NOTES.txt) / [Preview](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/Little%20Lemon%20Cafe.png) |
 
-## Technologies & Tools
-
-The technologies and tools used throughout the bootcamp may include:
-
-- HTML5
-- CSS3
-- JavaScript
-- Git and GitHub
-- Visual Studio Code
-- Other programming technologies introduced during the program
+The activity folders are numbered in order, and new activities are added as additional folders in the repository root.
 
 ## Repository Structure
 
 ```text
 PSEB-Bootcamp-Assignments/
-│
-├── assignments/
-│   ├── activity_1/
-│   └── activity_2/
-│
-├── Quizzes/
-│
-├── Tasks/
-│
-├── Projects/
-│
+├── activity_1/
+│   ├── index.html
+│   ├── output.png
+│   └── random-boy.jpg
+├── activity_2/
+│   ├── index.html
+│   ├── output.png
+│   └── random-boy.jpg
+├── activity_3/
+│   ├── index.html
+│   ├── output.png
+│   └── muhammad-ahmad-portrait.jpg
+├── activity_4/
+│   ├── Webpage 1 - Forge Fitness/
+│   │   ├── styles/style.css
+│   │   ├── ASSIGNMENT-NOTES.txt
+│   │   ├── Forge Fitness.png
+│   │   ├── index.html
+│   │   └── README.md
+│   └── Webpage 2 - Little Lemon Cafe/
+│       ├── styles/style.css
+│       ├── ASSIGNMENT-NOTES.txt
+│       ├── Little Lemon Cafe.png
+│       ├── index.html
+│       └── README.md
 └── README.md
 ```
 
-_The folder structure may evolve as new activities are added._
+## Technology Overview
 
-## Learning Objectives
+- Languages: HTML5 and CSS3. No JavaScript, package manifests, or build tooling are present.
+- Styling approach: activities 1 to 3 use internal CSS in a `<style>` element. Activity 4 uses external stylesheets linked from `styles/style.css`.
+- External services: activity 4 loads Google Fonts and Pexels photography, and activity 2 embeds a video from `youtube-nocookie.com`. These pages need an internet connection to render fully.
+- Workflow: Git and GitHub.
 
-- Develop practical programming skills.
-- Understand web development fundamentals.
-- Improve problem-solving abilities.
-- Practice writing clean and structured code.
-- Learn version control using Git and GitHub.
-- Build projects through hands-on practice.
+## Working With Individual Projects
 
-## About Me
+There is no root-level installation or build command. Each project is independent.
 
-**Ubaid Ahmad**
+1. Pick a project from the [Projects](#projects) table.
+2. Open its folder.
+3. Open `index.html` in a modern browser.
+4. For activity 4, read the project's `README.md` and `ASSIGNMENT-NOTES.txt` for design notes, CSS method comparisons, and image sources.
 
-Full-Stack Web Developer | MERN Stack Developer | UI/UX Designer
+## About
+
+Ubaid Ahmad
 
 - GitHub: [@stackiid](https://github.com/stackiid)
-- Portfolio: [My Portfolio](https://stackiid.github.io/portfolio/)
-
-## Progress
-
-This repository will continue to grow as I complete new assignments, quizzes, and practical tasks throughout the PSEB Bootcamp.
-
----
-
-**Learning by building. Improving through practice.**
+- Portfolio: [stackiid.github.io/portfolio](https://stackiid.github.io/portfolio/)
