@@ -12,7 +12,7 @@ Coursework from the PSEB Bootcamp: a collection of static web pages built with H
 
 ## Projects
 
-The repository currently contains 5 projects across 4 numbered activity folders. `activity_4` holds two separate webpages. Only the two projects in `activity_4` include their own `README.md`; the others are documented here.
+The repository currently contains 6 projects across 5 numbered activity folders. `activity_4` holds two separate webpages. The projects in `activity_4` include their own `README.md`; the other activities are documented here.
 
 | Activity | Project                                                                    | Description                                                                                                                                                                                      | Styling      | Links                                                                                                                                                                                                                                      |
 | -------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -21,6 +21,7 @@ The repository currently contains 5 projects across 4 numbered activity folders.
 | 3        | [BISE Peshawar Result Transcript](./activity_3/)                           | Static layout of an intermediate result transcript with candidate information, a subject-wise marks table with grouped headers, a result summary, a verification form, and an instructions list. | Internal CSS | [index.html](./activity_3/index.html) / [Preview](./activity_3/OUTPUT.png)                                                                                                                                                                 |
 | 4        | [Forge Fitness](./activity_4/Webpage%201%20-%20Forge%20Fitness/)           | Responsive gym landing page with hero, training programs, facility feature, opening schedule, and contact call to action.                                                                        | External CSS | [README](./activity_4/Webpage%201%20-%20Forge%20Fitness/README.md) / [Notes](./activity_4/Webpage%201%20-%20Forge%20Fitness/ASSIGNMENT-NOTES.txt) / [Preview](./activity_4/Webpage%201%20-%20Forge%20Fitness/OUTPUT.png)                   |
 | 4        | [Little Lemon Cafe](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/) | Responsive cafe landing page with hero, brand story, menu highlights, quote feature, and visit details.                                                                                          | External CSS | [README](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/README.md) / [Notes](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/ASSIGNMENT-NOTES.txt) / [Preview](./activity_4/Webpage%202%20-%20Little%20Lemon%20Cafe/OUTPUT.png) |
+| 5        | [Animated Penguin](./activity_5/)                                      | Responsive, full-screen penguin animation featuring CSS breathing, blinking, snowfall, wing movement, and a hover-triggered laughing and walking interaction. | External CSS | [index.html](./activity_5/index.html) / [Notes](./activity_5/ASSIGNMENT_NOTES.txt) / [Preview](./activity_5/OUTPUT.png) |
 
 The activity folders are numbered in order, and new activities are added as additional folders in the repository root.
 
@@ -53,13 +54,18 @@ PSEB-Bootcamp-Assignments/
 │       ├── OUTPUT.png
 │       ├── index.html
 │       └── README.md
+├── activity_5/
+│   ├── styles/style.css
+│   ├── ASSIGNMENT_NOTES.txt
+│   ├── OUTPUT.png
+│   └── index.html
 └── README.md
 ```
 
 ## Technology Overview
 
 - Languages: HTML5 and CSS3. No JavaScript, package manifests, or build tooling are present.
-- Styling approach: activities 1 to 3 use internal CSS in a `<style>` element. Activity 4 uses external stylesheets linked from `styles/style.css`.
+- Styling approach: activities 1 to 3 use internal CSS in a `<style>` element. Activities 4 and 5 use external stylesheets linked from `styles/style.css`.
 - External services: activity 4 loads Google Fonts and Pexels photography, and activity 2 embeds a video from `youtube-nocookie.com`. These pages need an internet connection to render fully.
 - Workflow: Git and GitHub.
 
@@ -70,7 +76,7 @@ There is no root-level installation or build command. Each project is independen
 1. Pick a project from the [Projects](#projects) table.
 2. Open its folder.
 3. Open `index.html` in a modern browser.
-4. For activity 4, read the project's `README.md` and `ASSIGNMENT-NOTES.txt` for design notes, CSS method comparisons, and image sources.
+4. For activities 4 and 5, read the project's `README.md` (where available) and `ASSIGNMENT-NOTES.txt` for design notes and implementation details.
 
 ## About
 
