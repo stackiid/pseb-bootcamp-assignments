@@ -1,0 +1,35 @@
+ASSIGNMENT 5: CSS ANIMATIONS AND TRANSITIONS
+Project: Full-screen CSS Penguin
+Technology: HTML5 and CSS3 only. No JavaScript.
+
+The visible page contains no headings, labels, buttons, or instructional text. The penguin uses the
+same core HTML structure and class-based parts from the supplied original penguin: penguin-top,
+penguin-bottom, hands, feet, cheeks, belly, eyes, sparkle, blush, and beak.
+
+CSS animations:
+- breathe: gentle body movement to suggest breathing.
+- blink: closes and opens the eyes.
+- right-flap and left-flap: subtle idle wing movement.
+- snow-fall: moves layered snow particles down the full-screen scene.
+- twinkle and aurora-drift: animate background details.
+- walk-bob, right-walk, left-walk, step-left, and step-right: create the hover walking motion.
+- happy-eyes: changes the eyes during the laughing state.
+
+CSS transitions:
+Transitions smoothly change the beak and laughing mouth when the pointer enters the scene.
+They provide gradual visual feedback between the idle and hover states.
+
+Why transitions are used:
+Transitions make CSS property changes smooth instead of instant. They improve interaction feedback
+and make state changes feel more natural.
+
+Why animations are used:
+Animations use @keyframes to create repeated or multi-stage motion without JavaScript. They are
+suitable for blinking, breathing, snowfall, wing movement, and walking.
+
+Responsive design:
+The penguin uses clamp(), viewport units, and media queries to scale for mobile and landscape
+screens. The scene fills the browser viewport.
+
+Run:
+Open index.html in a modern browser and move the pointer over the penguin to trigger the hover state.
